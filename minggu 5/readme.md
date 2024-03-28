@@ -26,21 +26,18 @@
 # Tugas Pendahuluan 
 
 ### Jawablah pertanyaan-pertanyaan di bawah ini :
-1. Apa yang dimaksud dengan proses ?
-<br>
-<b>Jawaban : </b><br>
+1. Apa yang dimaksud dengan proses ? <br>
+<b>Jawaban : </b>
 proses adalah sebuah instance atau eksekusi dari sebuah program.
 
 2. Apa yang dimaksud perintah untuk menampilkan status proses : <br>
 ps, pstree.
-<br>
 <b>Jawaban</b> : <br>
 - perintah "ps" : merupakan singkatan dari "process status". Perintah ini digunakan untuk menampilkan snapshot dari proses-proses yang sedang berjalan di sistem pada saat perintah tersebut dieksekusi.
 
 - perintah "pstree" :  digunakan untuk menampilkan struktur pohon dari semua proses yang sedang berjalan di sistem. Dengan kata lain, perintah ini akan menampilkan hubungan parent-child antara proses-proses tersebut dalam bentuk pohon.
 
 3. Sebutkan opsi yang dapat diberikan pada perintah ps
-<br>
 <b>Jawaban :</b> <br>
 Opsi yang umum digunakan pada perintah ps yaitu : <br>
 - "e" : Menampilkan semua proses.
