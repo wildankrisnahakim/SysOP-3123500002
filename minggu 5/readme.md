@@ -86,85 +86,108 @@ top, nice, renice.<br>
 2. Download program C++ untuk menampilkan bilangan prima yang bernama primes.
 
 ![App Screenshoot](img/langkah_2.png)
-analisis : Saya sudah menginstall g++ sebelumnya, g++ merupakan compiler untuk menjalankan program cpp
+
+analisis : Saya sudah menginstall g++ sebelumnya, g++ merupakan compiler untuk menjalankan program cpp<br><br>
 
 ![App Screenshoot](img/cpp.png)
-analisis: perintah g++ primes.cpp -o primes untuk meng-compile file, perintah ./prime untuk running program cpp yang dibuat.
+
+analisis: perintah g++ primes.cpp -o primes untuk meng-compile file, perintah ./prime untuk running program cpp yang dibuat.<br><br>
 
 <b>3. Lakukan percobaan-percobaan di bawah ini kemudian analisa hasil percobaan</b>
 
 ## Percobaan 1
 
 ![App Screenshoot](img/percoban_1a.png)
-analisis : Perintah ps menampilkan daftar semua proses yang berjalan saat ini
+
+analisis : Perintah ps menampilkan daftar semua proses yang berjalan saat ini<br><br>
 
 ![App Screenshoot](img/percobaan_1b.png)
-analisis : Perintah ps-u menampilkan daftar semua proses yang berjalan di sistem beserta informasi pengguna terkait
+
+analisis : Perintah ps-u menampilkan daftar semua proses yang berjalan di sistem beserta informasi pengguna terkait<br><br>
 
 ![App Screenshoot](img/percobaan_1c.png)
-analisis :  menampilkan daftar proses yang dimiliki pengguna tertentu (username) beserta informasi penggunanya.
 
-![App Screenshoot](img/percobaan_1d.png)   
-analisis : Perintah ps -a hanya menampilkan daftar proses tanpa informasi tambahan tentang pemilik proses
+analisis :  menampilkan daftar proses yang dimiliki pengguna tertentu (username) beserta informasi penggunanya.<br><br>
+
+![App Screenshoot](img/percobaan_1d.png) 
+
+analisis : Perintah ps -a hanya menampilkan daftar proses tanpa informasi tambahan tentang pemilik proses<br><br>
 
 ![App Screenshoot](img/percobaan_1e.png) 
-analisis : perintah ps -au menampilkan daftar proses denfan menyertakan informasi pengguna disetiap proses.
+
+analisis : perintah ps -au menampilkan daftar proses denfan menyertakan informasi pengguna disetiap proses.<br><br>
 
 ## Percobaan 2
 
 ![App Screenshoot](img/percobaan_2a.png)
-analisis : Perintah ps -eH digunakan untuk melihat daftar proses yang berjalan di sistem dan disusun dalam bentuk hirarki dimana bagan tersebut saling berhubungan
+
+analisis : Perintah ps -eH digunakan untuk melihat daftar proses yang berjalan di sistem dan disusun dalam bentuk hirarki dimana bagan tersebut saling berhubungan<br><br>
 
 ![App Screenshoot](img/percobaan_2b.png)
-analisis : Perintah ps -ef menampilkan semua proses yang berjalan disistem dengan informasi lengkapnya
+
+analisis : Perintah ps -ef menampilkan semua proses yang berjalan disistem dengan informasi lengkapnya<br><br>
 
 ![App Screenshoot](img/percobaan_2c.png)
-analisis : Perintah pstree digunakan untuk menampilkan struktur pohon proses dari sistem secara hierarkis yang dimulai dari proses induk utama seperti systemd, dan kemudian turun ke proses-proses anak yang lebih spesifik.
+
+analisis : Perintah pstree digunakan untuk menampilkan struktur pohon proses dari sistem secara hierarkis yang dimulai dari proses induk utama seperti systemd, dan kemudian turun ke proses-proses anak yang lebih spesifik.<br><br>
 
 ![App Screenshoot](img/percobaan_2d.png)
-analisis : pstree | grep mingetty digunakan untuk memfilter struktur pohon pada perintah pstree dengan hanya menampilkan baris yang mengandung kata "mingetty"
+
+analisis : pstree | grep mingetty digunakan untuk memfilter struktur pohon pada perintah pstree dengan hanya menampilkan baris yang mengandung kata "mingetty"<br><br>
 
 ![App Screenshoot](img/percobaan_2e.png)
-Analisis: pstree -p menampilkan struktur pohon dengan menambahkan nomor PID (Proses ID) setiap proses.
+
+Analisis: pstree -p menampilkan struktur pohon dengan menambahkan nomor PID (Proses ID) setiap proses.<br><br>
 
 ![App Screenshoot](img/percobaan_2f.png)
-analisis: pstree -h digunakan untuk menampilkan struktur pohon proses seperti yang dilakukan oleh pstree, tetapi dengan menggunakan indentasi yang disesuaikan untuk setiap level dalam hierarki proses sehingga memudahkan untuk memahami hubungan parent-child antara proses-proses tersebut.
+
+analisis: pstree -h digunakan untuk menampilkan struktur pohon proses seperti yang dilakukan oleh pstree, tetapi dengan menggunakan indentasi yang disesuaikan untuk setiap level dalam hierarki proses sehingga memudahkan untuk memahami hubungan parent-child antara proses-proses tersebut.<br><br>
 
 ## Percobaan 3 
 
 ![App Screenshoot](img/percobaan_3a.png)
-analisis: ps -e | more menampilkan daftar semua proses dimana jika ditambah dengan perintah more akan ditampilkan satu halaman
+
+analisis: ps -e | more menampilkan daftar semua proses dimana jika ditambah dengan perintah more akan ditampilkan satu halaman<br><br>
 
 ![App Screenshoot](img/percobaan_3b.png)
-analisis : ps -ax | more manampilkan daftar proses secara bertahap
+
+analisis : ps -ax | more manampilkan daftar proses secara bertahap<br><br>
 
 ![App Screenshoot](img/percobaan_3c.png)
-analisis : ps -ef digunakan untuk menampilkan daftar semua proses yang berjalan di sistem, bersama dengan informasi lengkap tentang setiap proses, seperti UID (User ID), PID (Process ID), PPID (Parent Process ID), TTY (controlling terminal), STAT (status), TIME (CPU time), dan CMD (command) secara bertahap
+
+analisis : ps -ef digunakan untuk menampilkan daftar semua proses yang berjalan di sistem, bersama dengan informasi lengkap tentang setiap proses, seperti UID (User ID), PID (Process ID), PPID (Parent Process ID), TTY (controlling terminal), STAT (status), TIME (CPU time), dan CMD (command) secara bertahap<br><br>
 
 ![App Screenshoot](img/percobaan_3d.png)
-analisis : ps -eo pid cmd digunakan untuk menampilkan daftar semua proses yang berjalan di sistem, dengan menampilkan hanya PID (Process ID) dan perintah (cmd) yang menjalankan proses tersebut
+
+analisis : ps -eo pid cmd digunakan untuk menampilkan daftar semua proses yang berjalan di sistem, dengan menampilkan hanya PID (Process ID) dan perintah (cmd) yang menjalankan proses tersebut<br><br>
 
 ![App Screenshoot](img/percobaan_3e.png)
-analisis:  ps -eo,pid,ppid,%mem,cmd | more digunakan untuk menampilkan daftar semua proses yang berjalan di sistem, dengan menampilkan hanya kolom PID (Process ID), PPID (Parent Process ID), %MEM (persentase memori yang digunakan oleh proses), dan CMD (command) yang menjalankan proses tersebut
+
+analisis:  ps -eo,pid,ppid,%mem,cmd | more digunakan untuk menampilkan daftar semua proses yang berjalan di sistem, dengan menampilkan hanya kolom PID (Process ID), PPID (Parent Process ID), %MEM (persentase memori yang digunakan oleh proses), dan CMD (command) yang menjalankan proses tersebut<br><br>
 
 ## Percobaan 4
 
 ![App Screenshoot](img/percobaan_4a.png)
-analisis : perintah yes akan menampilkan y tanpa henti, namun kita bisa memberhentikannya dengan memencet ctrl-c
+
+analisis : perintah yes akan menampilkan y tanpa henti, namun kita bisa memberhentikannya dengan memencet ctrl-c<br><br>
 
 ![App Screenshoot](img/percobaan_4b.png)
-analisis : mengalirkan output yes ke /dev/null, yang berarti output tersebut akan dibuang dan tidak ditampilkan di terminal.
 
+analisis : mengalirkan output yes ke /dev/null, yang berarti output tersebut akan dibuang dan tidak ditampilkan di terminal.
+<br><br>
 ![App Screenshoot](img/percobaan_4c.png)
-analisis :sama seperti sebelumnya namun "&" : Menandakan bahwa proses tersebut akan berjalan di latar belakang (background), yang berarti Anda dapat melanjutkan menggunakan terminal tanpa harus menunggu proses tersebut selesai.
+
+analisis :sama seperti sebelumnya namun "&" : Menandakan bahwa proses tersebut akan berjalan di latar belakang (background), yang berarti Anda dapat melanjutkan menggunakan terminal tanpa harus menunggu proses tersebut selesai.<br><br>
 
 ![App Screenshoot](img/percobaan_4d.png)
-analisis :  digunakan di dalam shell untuk menampilkan daftar pekerjaan (jobs) yang sedang berjalan di latar belakang (background) atau berhenti (stopped) dalam sesi shell saat ini.
+
+analisis :  digunakan di dalam shell untuk menampilkan daftar pekerjaan (jobs) yang sedang berjalan di latar belakang (background) atau berhenti (stopped) dalam sesi shell saat ini.<br><br>
 
 ![App Screenshoot](img/percobaan_4e.png)
+
 analisis: 
 - kill %1 :  untuk mengirimkan sinyal penutup ke proses yang memiliki nomor identifikasi 1.
-- jobs itu untuk cek daftar proses yang berjalan ia running atau terminated.
+- jobs itu untuk cek daftar proses yang berjalan ia running atau terminated.<br><br>
 
 # Kesimpulan 
 Laporan praktikum ini mencakup materi tentang proses dan manajemen proses dalam sistem operasi. Ini mencakup konsep dasar proses, perintah-perintah seperti ps dan pstree untuk menampilkan status dan hirarki proses, serta opsi-opsi yang dapat diberikan pada perintah ps. Laporan ini juga membahas tentang sinyal dan perintah-perintah terkait, seperti kill, serta konsep proses foreground dan background dalam job control. Selain itu, laporan ini mencakup percobaan praktikum yang melibatkan penggunaan perintah-perintah tersebut dalam situasi nyata, seperti melihat daftar proses, melihat struktur pohon proses, dan mengelola proses yang berjalan di latar belakang. Terdapat juga contoh penggunaan perintah yes untuk menghasilkan output yang diarahkan ke /dev/null dan dijalankan di latar belakang, serta pembahasan tentang penggunaan jobs dan kill untuk mengelola proses yang berjalan di latar belakang. Overall, laporan ini memberikan pemahaman yang komprehensif tentang proses dan manajemen proses dalam sistem operasi.
