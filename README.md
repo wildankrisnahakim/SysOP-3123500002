@@ -9,4 +9,4 @@
 - [Minggu ke-7 UTS](minggu-7---uts)
 - [Minggu ke-8](minggu-8)
 - [Minggu ke-9](minggu-9)
-- [Minggu ke-10](minggu-10)
+- [Minggu ke-10](minggu10)
