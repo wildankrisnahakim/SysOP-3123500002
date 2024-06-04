@@ -10,4 +10,4 @@
 - [Minggu ke-8](https://github.com/wildankrisnahakim/SysOP-3123500002/tree/main/minggu%208)
 - [Minggu ke-9](https://github.com/wildankrisnahakim/SysOP-3123500002/tree/main/minggu%209)
 - [Minggu ke-10](https://github.com/wildankrisnahakim/SysOP-3123500002/tree/main/minggu%2010)
-- [Minggu ke-11]([https://github.com/wildankrisnahakim/SysOP-3123500002/tree/main/minggu%2010(https://github.com/wildankrisnahakim/SysOP-3123500002/tree/main/minggu%2011))
+- [Minggu ke-11](https://github.com/wildankrisnahakim/SysOP-3123500002/tree/main/minggu%2011)
